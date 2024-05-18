@@ -1,12 +1,12 @@
 {
   "name": "gamenoda",
   "version": "1.0.0",
-  "description": "Вторая домашняя работа",
+  "description": "Третья домашняя работа",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon app.js",
-    "start": "node app.js"
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,10 @@
   "homepage": "https://github.com/SSerov77/GameNoda#readme",
   "devDependencies": {
     "nodemon": "^3.1.0"
-  }
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2"
+  },
+  "keywords": []
 }
